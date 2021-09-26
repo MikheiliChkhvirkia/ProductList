@@ -1,0 +1,71 @@
+.main-conteiner{
+    margin: 50px 20% 0px 20%;
+}
+
+.nameConteiner{
+    padding-left: 2%;
+}
+
+.container{
+    padding-top: 60px;
+}
+
+.btn{
+    margin-right: 2%;
+    margin-top: 0px;
+    float:right; 
+    border:black solid 1px;
+    background-color: rgb(255, 255, 255);
+}
+
+.card-body:hover{
+    transform: translateY(-1px);
+    box-shadow: 2px 5px rgba(0, 0, 0, 0.50);
+}
+
+.btn:hover{
+    border-color: black;
+    background: rgb(247, 248, 164);
+    transform: translateY(-1px);
+    box-shadow: 2px 5px rgba(0, 0, 0, 0.50);
+}
+#delete-product-btn:hover,#cancel-product-btn:hover{
+    background: rgba(252, 111, 111, 0.658);
+}
+input{
+    border-radius: 5px;
+    border-color: rgba(0, 0, 0, 0.5);
+}
+.line{
+    padding-top: 6%;
+    border-bottom: black solid 1px;
+}
+.optionConteiner{
+    padding-top: 5%;
+}
+.optionText{
+    font-weight: bold;
+    padding-top: 5%;
+}
+.optionOne,.optionTwo,.optionThree{
+    display: none;
+}
+.shrink{
+    border: solid black 1px;
+    white-space:nowrap
+}
+ul{
+    list-style: none;
+    padding: 0px;
+}
+li{
+    float: left;
+}
+.secondList{
+    padding-top: 5%;
+}
+.thirdList{
+    padding-top: 3.5%;
+}
+
+
